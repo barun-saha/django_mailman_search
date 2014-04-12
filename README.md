@@ -7,8 +7,16 @@ A Django project to search the Mailman email archives.
 Installation
 ==========
 
+Install the dependencies as
+
 ```
 pip install pip_requirements.txt
+```
+
+followed by
+
+```
+python manage.py syncdb
 ```
 
 URLs
