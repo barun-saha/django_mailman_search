@@ -1,0 +1,7 @@
+Django==1.6.2
+Whoosh==2.6.0
+argparse==1.2.1
+django-haystack==2.1.0
+python-dateutil==2.2
+six==1.6.1
+wsgiref==0.1.2

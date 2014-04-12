@@ -1,0 +1,19 @@
+<html>
+
+<head>
+	<title>{{ email.subject }}</title>
+</head>
+
+<body>
+
+From: {{ email.email_from_name }} ({{ email.display_email }}) <br>
+Date: {{ email.email_date }} <br>
+Subject: {{ email.subject }} <br>
+
+<p>
+{{ email.body|linebreaks }}
+</p>
+
+</body>
+
+</html>

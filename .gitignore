@@ -52,3 +52,8 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# Others
+*.py~
+db.sqlite3
+*error.txt
+django_mailman_search/whoosh_index/*
